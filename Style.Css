@@ -1,0 +1,53 @@
+.flutuante {
+  position: fixed;
+  font-size: 20px;
+  bottom: px; /* d
+  istância do ícone em relação à parte inferior */
+  right: 20px; /* distância do ícone em relação à parte direita */
+  width: 100px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  animation: flutuar 1s ease-in-out infinite alternate;
+}
+.SuperFlu {
+  font-size: 20px;
+  position: unset;
+  bottom: px; /* distância do ícone em relação à parte inferior */
+  right: 20px; /* distância do ícone em relação à parte direita */
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  animation: flutuar 1s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(100px);
+    transform: matrix(50px);
+  }
+}
+.hideable {
+  display: none;
+}
+
+.hideable:target {
+  display: block;
+}
+.TextCenter {
+  font-size: 100px;
+  text-align: center;
+  align-items: flex-start;
+}
