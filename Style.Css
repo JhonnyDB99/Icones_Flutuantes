@@ -27,17 +27,16 @@
   text-align: center;
   line-height: 50px;
   cursor: pointer;
-  animation: flutuar 1s ease-in-out infinite alternate;
+  animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
   from {
-    transform: translateY(0px);
+    transform: translateY(2px);
     transform: ;
   }
   to {
     transform: translateY(10px);
-    transform: translate3d(2px);
   }
 }
 .hideable {
@@ -50,4 +49,10 @@
 .TextCenter {
   font-size: 100px;
   text-align: center;
+}
+.invisible-button {
+  background: none;
+  border: none;
+  color: transparent;
+  cursor: pointer;
 }
